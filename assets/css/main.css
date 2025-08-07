@@ -1580,6 +1580,22 @@ input, select, textarea {
 				margin: 0 auto;
 				width: auto;
 			}
+		.image-row {
+		  display: flex;
+		  justify-content: center;
+		  gap: 20px; /* space between images */
+		  flex-wrap: wrap; /* allows wrapping on small screens */
+		  margin-bottom: 2rem;
+		}
+		
+		.image-col img {
+		  max-width: 250px; /* or whatever size you want */
+		  height: auto;
+		  display: block;
+		  margin: 0 auto;
+		  border-radius: 8px; /* optional: makes image corners rounded */
+		  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* optional: adds a subtle shadow */
+		}
 
 /* Button */
 
