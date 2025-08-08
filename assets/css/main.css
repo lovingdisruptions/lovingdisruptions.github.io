@@ -2025,7 +2025,8 @@ input, select, textarea {
 					-ms-flex-shrink: 0;
 					flex-shrink: 0;
 					width: 17em;
-					height: 100%;
+					height: auto;
+					display: flex;
 				}
 
 					#main > .panel.intro .pic:before {
